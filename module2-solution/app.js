@@ -30,7 +30,7 @@ function ShoppingListCheckOffService() {
 
   var toBuyItems = [
     { name: "cookies",         quantity: 10 },
-    { name: "chocolate stars", quantity: 6 },
+    { name: "chocolate stars", quantity: 6  },
     { name: "ice creams",      quantity: 15 },
     { name: "chips",           quantity: 12 },
     { name: "milk shakes",     quantity: 20 }
