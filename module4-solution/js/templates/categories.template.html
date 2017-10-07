@@ -1,0 +1,12 @@
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a ui-sref="home">Home</a></li>
+  <li class="breadcrumb-item active">Categories</li>
+</ol>
+
+<div class="jumbotron">
+  <ol>
+    <li ng-repeat="category in ctrl.categoriesList">
+      <a ui-sref="items({shortname: category.short_name})">{{category.name}}</a>
+    </li>
+  </ol>
+</div>

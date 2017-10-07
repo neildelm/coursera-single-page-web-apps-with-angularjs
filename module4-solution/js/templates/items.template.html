@@ -1,0 +1,13 @@
+<ol class="breadcrumb">
+  <li class="breadcrumb-item"><a ui-sref="home">Home</a></li>
+  <li class="breadcrumb-item"><a ui-sref="categories">Categories</a></li>
+  <li class="breadcrumb-item active">{{ ctrl.categoryName }}</li>
+</ol>
+
+<div class="jumbotron">
+  <ol>
+    <li ng-repeat="item in ctrl.items">
+      {{ item.name }}:&nbsp;{{ item.description}}
+    </li>
+  </ol>
+<div>
